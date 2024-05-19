@@ -1,0 +1,78 @@
+form{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 3%;
+    border:solid 1px;
+    border-radius:20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+input{
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 30%;
+    background-color: white;
+    height: 5%;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+label{
+    margin-left: 30%;
+}
+#cep{
+    width: 40%; 
+    margin-top: 3%;
+    margin-left: 30%;
+    
+}
+#rua{
+    border: 0px;
+}
+#bairro{
+    border: 0px;
+}
+#uf{
+    border: 0px;
+}
+#cidade{
+    border: 0px;
+}
+#ibge{
+    border: 0px;
+}
+#salvarButton{
+    margin-left: 46%;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: rgb(98, 98, 226);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+button{
+    color: aliceblue;
+    cursor: pointer;
+    background-color: rgb(226, 98, 98);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+}
+#enderecosalvo{
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
+#ceptxt{
+    margin-left: 42%;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-size: 40px;
+}
+

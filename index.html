@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="estilo.css">
+        <title>Formulário com CEP</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <strong id="ceptxt">BUSCA CEP</strong>
+<container id="quadrado">
+        <form method="get" action=".">
+            <input name="cep" placeholder="Informe o CEP" type="number" required id="cep" value="" size="10" maxlength="9"  /><br />
+            <label>Rua:      
+            <input disabled name="rua" type="text" id="rua" size="60" /></label><br />
+            <label>Bairro:  
+            <input disabled name="bairro" type="text" id="bairro" size="40" /></label><br />
+            <label>Cidade: 
+            <input disabled name="cidade" type="text" id="cidade" size="40" /></label><br />
+            <label>Estado: 
+            <input disabled name="uf" type="text" id="uf" size="2" /></label><br />
+            <label>IBGE:   
+            <input disabled name="ibge" type="text" id="ibge" size="8" /></label><br />
+        </form>
+    </container>
+        <button id="salvarButton">Salvar</button>
+        <div id="enderecosalvo"></div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
